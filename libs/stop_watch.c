@@ -31,7 +31,7 @@ void start_stopwatch(struct data_struct *g_data_struct)
     int seconds = g_data_struct->seconds;
     printf("=== start_stopwatch(): %d\n", seconds);
 
-    rc =  pthread_create(&thread_id, NULL, g_start_timer, (void *) g_data_struct);
-    if(rc)
-        printf("=== Failed to create thread\n");
+//    rc =  pthread_create(&thread_id, NULL, g_start_timer, (void *) g_data_struct);
+//    if(rc)
+//        printf("=== Failed to create thread\n");
 }

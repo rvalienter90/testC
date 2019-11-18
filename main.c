@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-#include "libs/utils.h"
-#include "libs/callbacks.h"
-
+//#include "libs/utils.h"
+//#include "libs/callbacks.h"
+#include "parser.h"
 int main() {
     printf("Hello, World!\n");
-
-     test_callback();
+        testparcer();
+     //test_callback();
     //test_numbers();
     return 0;
 }

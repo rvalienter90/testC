@@ -1,0 +1,28 @@
+#**************************************************************************#
+#*                                                                        *#
+#*     File Name:  DOM.conf                                               *#
+#*                                                                        *#
+#*     CAVREL                                                             *#
+#*                                                                        *#
+#*     Purpose: Config file for DOM and RVE                               *#
+#*                                                                        *#
+#**************************************************************************#
+emulatorFlag   = 1;  0, 10  # SUMO logs  for HV
+numOfRVs   = 1;  0, 10  # SUMO logs  for HV
+numNodesInLogs   = 5;  0, 10  # SUMO logs  for RV
+print_flag = 1;  0, 10  # SUMO logs  for # of RVs
+print_debug = 0;  0, 10  # SUMO logs  for # of RVs
+fake_send = 0;  0, 10  # SUMO logs  for # of RVs
+fake_recv = 0;  0, 10  # SUMO logs  for # of RVs
+rvcounter = 0;  0, 10  # SUMO logs  for # of RVs
+counter = 1;  0, 10  # SUMO logs  for # of RVs
+emulator_fake_send = 0;  0, 10  # SUMO logs  for # of RVs
+emulator_fake_1send = 1;  0, 10  # SUMO logs  for # of RVs
+emulator_fake_recv = 0;  0, 10  # SUMO logs  for # of RVs
+emulator_fake_send_rate = 12;  0, 10  # SUMO logs  for # of RVs
+pkg_transmission = 1;  0, 10  # SUMO logs  for # of RVs
+first_time_sync_flag = 1;  0, 10  # SUMO logs  for # of RVs
+rx_sync_flag = 0;  0, 10  # SUMO logs  for # of RVs
+HV = 2;  0, 10  # SUMO logs  for # of RVs
+RV = 1;  0, 10  # SUMO logs  for # of RVs
+recvWait = 3;  0, 10  # SUMO logs  for # of RVs
